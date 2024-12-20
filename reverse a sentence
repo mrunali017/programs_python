@@ -1,0 +1,12 @@
+sentence=input()
+y=[]
+s=[]
+def reverse_words_order_and_swap_cases(sentence):
+    sentence=sentence.swapcase()
+    w=sentence.split()
+    s=w[::-1]
+    for i in range(len(s)):
+        print(s[i],end=" ")
+        
+
+reverse_words_order_and_swap_cases(sentence)
